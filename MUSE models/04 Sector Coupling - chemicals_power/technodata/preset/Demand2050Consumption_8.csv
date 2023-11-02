@@ -1,0 +1,9 @@
+,RegionName,ProcessName,Timeslice,electricity,oil,gas,geo,heat,hydrogen,wind,lignite,biomass,water,uranium,solar,coal,hydro,waste,methanol,ammonia,CO2
+0,DE,procChemNG_NG,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300885.5,0
+1,DE,procChemNG_NG,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300885.5,0
+2,DE,procChemNG_NG,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300885.5,0
+3,DE,procChemNG_NG,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300885.5,0
+4,DE,procChemNG_NG,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300885.5,0
+5,DE,procChemNG_NG,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300885.5,0
+6,DE,procChemNG_NG,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300885.5,0
+7,DE,procChemNG_NG,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300885.5,0

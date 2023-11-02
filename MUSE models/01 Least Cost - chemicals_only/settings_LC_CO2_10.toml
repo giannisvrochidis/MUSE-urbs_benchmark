@@ -1,0 +1,207 @@
+# Global settings - most REQUIRED
+time_framework = [2020, 2025, 2030, 2035, 2040, 2045, 2050]
+foresight = 5   # Has to be a multiple of the minimum separation between the years in time framework
+regions = ["DE"]
+interest_rate = 0.07
+interpolation_mode = 'Active'
+log_level = 'info'
+
+# Convergence parameters
+equilibrium_variable = 'prices'
+maximum_iterations = 1000
+tolerance = 0.01
+tolerance_unmet_demand = -0.1
+
+
+
+[[outputs]]
+quantity = "prices"
+sink = "aggregate"
+filename = "{path}/LeastCost/MCA{Quantity}_LC_CO2price10.csv"
+
+[[outputs]]
+quantity = "metric_lcoe"
+sink = "aggregate"
+filename = "{path}/LeastCost/MCA{Quantity}_LC_CO2price10.csv"
+[[outputs]]
+quantity = "metric_eac"
+sink = "aggregate"
+filename = "{path}/LeastCost/MCA{Quantity}_LC_CO2price10.csv"
+[[outputs]]
+quantity = "metric_fuel_costs"
+sink = "aggregate"
+filename = "{path}/LeastCost/MCA{Quantity}_LC_CO2price10.csv"
+
+[[outputs]]
+quantity = "capacity"
+sink = "aggregate"
+filename = "{path}/LeastCost/MCA{Quantity}_LC_CO2price10.csv"
+index = false
+keep_columns = ['technology', 'dst_region', 'region', 'agent', 'sector', 'type', 'year', 'capacity']
+
+
+[[outputs]]
+quantity = "timeslice_supply"
+sink = "aggregate"
+filename = "{path}/LeastCost/MCA{Quantity}_LC_CO2price10.csv"
+columns = ["timeslice",	"commodity",	"region",	"installed",	"technology", "year",	"agent",	"category",	"sector",	"supply"]
+
+[[outputs]]
+quantity = "timeslice_consumption"
+sink = "aggregate"
+filename = "{path}/LeastCost/MCA{Quantity}_LC_CO2price10.csv"
+columns = ["timeslice",	"commodity",	"region",	"installed",	"technology", "year",	"agent",	"category",	"sector",	"consumption"]
+
+
+
+[global_input_files]
+projections = '{path}/input/Projections_10.csv'
+global_commodities = '{path}/input/GlobalCommodities.csv'
+
+
+
+[sectors.industry]
+type = 'default'
+priority =1 
+dispatch_production = 'share'
+
+technodata = '{path}/technodata/industry/Technodata.csv'
+commodities_in = '{path}/technodata/industry/CommIn.csv'
+commodities_out = '{path}/technodata/industry/CommOut.csv'
+
+[sectors.industry.subsectors.retro_and_new]
+agents = '{path}/technodata/Agents.csv'
+existing_capacity = '{path}/technodata/industry/ExistingCapacity.csv'
+lpsolver = "adhoc"  # Optional, defaults to "adhoc" 
+constraints = [  # Optional, defaults to the constraints below
+    "max_production",
+    "max_capacity_expansion",
+    "demand",
+    "search_space",
+]
+demand_share = "new_and_retro"  # Optional, default to new_and_retro
+forecast = 5  # Optional, defaults to 5 
+
+[[sectors.industry.outputs]]
+filename = '{cwd}/LeastCost/{Sector}/{Quantity}/{year}{suffix}'
+quantity = "capacity"
+sink = 'csv'
+overwrite = true
+index = false
+
+[[sectors.industry.outputs]]
+filename = '{cwd}/LeastCost/{Sector}/{Quantity}/{year}{suffix}'
+quantity.name = "supply"
+quantity.sum_over = "timeslice"
+quantity.drop = ["comm_usage", "units_prices"]
+sink = 'csv'
+overwrite = true
+
+
+[[sectors.industry.interactions]] 
+net = 'new_to_retro'
+interaction = 'transfer'
+
+[sectors.demand_presets]
+type = 'presets'
+priority = 0
+consumption_path= "{path}/technodata/preset/*Consumption.csv"
+
+[timeslices]
+Winter.all-week.a=90
+Winter.all-week.b=91
+Winter.all-week.c=91
+Winter.all-week.d=90
+Winter.all-week.e=91
+Winter.all-week.f=91
+Winter.all-week.g=91
+Winter.all-week.h=90
+Winter.all-week.i=91
+Winter.all-week.j=91
+Winter.all-week.k=90
+Winter.all-week.l=91
+Winter.all-week.m=89
+Winter.all-week.n=89
+Winter.all-week.o=90
+Winter.all-week.p=89
+Winter.all-week.q=89
+Winter.all-week.r=89
+Winter.all-week.s=89
+Winter.all-week.t=89
+Winter.all-week.u=90
+Winter.all-week.v=89
+Winter.all-week.x=89
+Winter.all-week.y=91
+Spring.all-week.a=93
+Spring.all-week.b=92
+Spring.all-week.c=92
+Spring.all-week.d=93
+Spring.all-week.e=92
+Spring.all-week.f=92
+Spring.all-week.g=92
+Spring.all-week.h=92
+Spring.all-week.i=91
+Spring.all-week.j=91
+Spring.all-week.k=91
+Spring.all-week.l=91
+Spring.all-week.m=92
+Spring.all-week.n=92
+Spring.all-week.o=92
+Spring.all-week.p=92
+Spring.all-week.q=93
+Spring.all-week.r=92
+Spring.all-week.s=92
+Spring.all-week.t=93
+Spring.all-week.u=91
+Spring.all-week.v=93
+Spring.all-week.x=93
+Spring.all-week.y=91
+Summer.all-week.a=92
+Summer.all-week.b=92
+Summer.all-week.c=92
+Summer.all-week.d=92
+Summer.all-week.e=91
+Summer.all-week.f=91
+Summer.all-week.g=91
+Summer.all-week.h=91
+Summer.all-week.i=92
+Summer.all-week.j=92
+Summer.all-week.k=92
+Summer.all-week.l=92
+Summer.all-week.m=93
+Summer.all-week.n=92
+Summer.all-week.o=92
+Summer.all-week.p=93
+Summer.all-week.q=91
+Summer.all-week.r=93
+Summer.all-week.s=93
+Summer.all-week.t=91
+Summer.all-week.u=93
+Summer.all-week.v=92
+Summer.all-week.x=92
+Summer.all-week.y=93
+Fall.all-week.a=90
+Fall.all-week.b=90
+Fall.all-week.c=90
+Fall.all-week.d=90
+Fall.all-week.e=91
+Fall.all-week.f=91
+Fall.all-week.g=91
+Fall.all-week.h=92
+Fall.all-week.i=91
+Fall.all-week.j=91
+Fall.all-week.k=92
+Fall.all-week.l=91
+Fall.all-week.m=91
+Fall.all-week.n=92
+Fall.all-week.o=91
+Fall.all-week.p=91
+Fall.all-week.q=92
+Fall.all-week.r=91
+Fall.all-week.s=91
+Fall.all-week.t=92
+Fall.all-week.u=91
+Fall.all-week.v=91
+Fall.all-week.x=91
+Fall.all-week.y=90
+level_names = ["month", "day", "hour"]

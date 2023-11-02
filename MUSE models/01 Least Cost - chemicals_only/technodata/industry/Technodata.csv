@@ -1,0 +1,9 @@
+ProcessName,RegionName,Time,Level,cap_par,cap_exp,fix_par,fix_exp,var_par,var_exp,MaxCapacityAddition,MaxCapacityGrowth,TotalCapacityLimit,TechnicalLife,UtilizationFactor,ScalingSize,efficiency,InterestRate,Type,Fuel,EndUse,Agent2,Agent1
+Unit,-,Year,-,EUR/t-yr,-,EUR/t-yr2,-,EUR/t,-,t-yr,%,t-yr,Years,-,t-yr,%,-,-,-,-,Retrofit,New
+procChemFertiliz,DE,2020,fixed,10145.263,1,22.76,1,0,1,1.00E+14,100,1.00E+14,20,1,0.1,1,0.1,energy,electricity,fertilizers,1,0
+procAmm_NG,DE,2020,fixed,905,1,22.625,1,0,1,1.00E+14,100,1.00E+14,20,1,0.1,1,0.1,energy,gas,ammonia,1,0
+procAmm_Coal,DE,2020,fixed,2175,1,108.75,1,0,1,1.00E+14,100,1.00E+14,20,1,0.1,1,0.1,energy,coal,ammonia,1,0
+procAmm_NG_CCS,DE,2020,fixed,1315,1,32.875,1,0,1,1.00E+14,100,1.00E+14,20,1,0.1,1,0.1,energy,gas,ammonia,1,0
+procAmm_Coal_CCS,DE,2020,fixed,2810,1,140.5,1,0,1,1.00E+14,100,1.00E+14,20,1,0.1,1,0.1,energy,coal,ammonia,1,0
+procAmm_Elec,DE,2020,fixed,1030,1,15.45,1,0,1,1.00E+14,100,1.00E+14,20,1,0.1,1,0.1,energy,electricity,ammonia,1,0
+procAmm_Bio,DE,2020,fixed,6320,1,316,1,0,1,1.00E+14,100,1.00E+14,20,1,0.1,1,0.1,energy,biomass,ammonia,1,0

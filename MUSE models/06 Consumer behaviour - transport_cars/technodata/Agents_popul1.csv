@@ -1,0 +1,5 @@
+AgentShare,Name,RegionName,Objective1,Objective2,Objective3,ObjData1,ObjData2,ObjData3,Objsort1,Objsort2,Objsort3,SearchRule,DecisionMethod,Quantity,MaturityThreshold,Budget,Type
+trad1,A1,DE,capital_costs,comfort,fuel_consumption_cost,0.5,0.25,0.25,TRUE,FALSE,TRUE,all,weighted_sum,0.75,-1,inf,New
+trad2,A1,DE,capital_costs,comfort,fuel_consumption_cost,0.5,0.25,0.25,TRUE,FALSE,TRUE,all,weighted_sum,0.75,-1,inf,Retrofit
+prog1,A2,DE,emission_cost,fuel_consumption_cost,capital_costs,0.5,0.25,0.25,TRUE,TRUE,TRUE,all,weighted_sum,0.25,-1,inf,New
+prog2,A2,DE,emission_cost,fuel_consumption_cost,capital_costs,0.5,0.25,0.25,TRUE,TRUE,TRUE,all,weighted_sum,0.25,-1,inf,Retrofit

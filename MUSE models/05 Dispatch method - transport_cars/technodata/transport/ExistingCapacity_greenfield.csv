@@ -1,0 +1,9 @@
+ProcessName,RegionName,Unit,2020,2025,2030,2035,2040,2045,2050
+pt_car_bev,DE,pkm-yr,1,1,1,1,1,1,1
+pt_car_diesel,DE,pkm-yr,1,1,1,1,1,1,1
+pt_car_hybrid,DE,pkm-yr,1,1,1,1,1,1,1
+pt_car_hydrogen,DE,pkm-yr,1,1,1,1,1,1,1
+pt_car_lpg,DE,pkm-yr,1,1,1,1,1,1,1
+pt_car_natural_gas,DE,pkm-yr,1,1,1,1,1,1,1
+pt_car_petrol,DE,pkm-yr,1,1,1,1,1,1,1
+pt_car_plug_in,DE,pkm-yr,1,1,1,1,1,1,1

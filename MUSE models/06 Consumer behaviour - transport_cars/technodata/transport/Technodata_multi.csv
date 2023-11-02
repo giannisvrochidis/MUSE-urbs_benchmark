@@ -1,0 +1,10 @@
+ProcessName,RegionName,Time,Level,cap_par,cap_exp,fix_par,fix_exp,var_par,var_exp,MaxCapacityAddition,MaxCapacityGrowth,TotalCapacityLimit,TechnicalLife,UtilizationFactor,ScalingSize,efficiency,InterestRate,comfort,Type,Fuel,EndUse,trad2,prog2
+Unit,-,Year,-,EUR/t-yr,-,EUR/t-yr2,-,EUR/t,-,t-yr,%,t-yr,Years,-,t-yr,%,-,-,-,-,-,Retrofit,Retrofit
+pt_car_bev,DE,2020,fixed,1.56E-05,1,0.00E+00,1,0,0,5.34E+11,100,5.34E+11,9.6,1,0.1,1,0.07,0.6,energy,electricity,pt_car_pkm,0.75,0.25
+pt_car_diesel,DE,2020,fixed,1.49E-05,1,0.00E+00,1,0,0,1.11E+12,100,1.11E+12,9.6,1,0.1,1,0.07,1,energy,diesel,pt_car_pkm,0.75,0.25
+pt_car_hybrid,DE,2020,fixed,1.41E-05,1,0.00E+00,1,0,0,1.14E+12,100,1.14E+12,9.6,1,0.1,1,0.07,1,energy,petrol,pt_car_pkm,0.75,0.25
+pt_car_hydrogen,DE,2020,fixed,2.02E-05,1,0.00E+00,1,0,0,2.29E+11,100,2.29E+11,9.6,1,0.1,1,0.07,0.7,energy,hydrogen,pt_car_pkm,0.75,0.25
+pt_car_lpg,DE,2020,fixed,1.40E-05,1,0.00E+00,1,0,0,7.08E+10,100,7.08E+10,9.6,1,0.1,1,0.07,1,energy,LPG,pt_car_pkm,0.75,0.25
+pt_car_natural_gas,DE,2020,fixed,1.44E-05,1,0.00E+00,1,0,0,1.31E+10,100,1.31E+10,9.6,1,0.1,1,0.07,0.7,energy,gas,pt_car_pkm,0.75,0.25
+pt_car_petrol,DE,2020,fixed,1.29E-05,1,0.00E+00,1,0,0,1.73E+12,100,1.73E+12,9.6,1,0.1,1,0.07,1,energy,petrol,pt_car_pkm,0.75,0.25
+pt_car_plug_in,DE,2020,fixed,1.45E-05,1,0.00E+00,1,0,0,6.10E+11,100,6.10E+11,9.6,1,0.1,1,0.07,0.8,energy,electricity,pt_car_pkm,0.75,0.25

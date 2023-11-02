@@ -1,0 +1,17 @@
+ProcessName,RegionName,Time,Level,electricity,oil,gas,geo,heat,hydrogen,wind,lignite,biomass,water,uranium,solar,coal,hydro,waste,methanol,ammonia,CO2
+Unit,-,Year,-,GJ/GJ,GJ/GJ,GJ/GJ,GJ/GJ,GJ/GJ,GJ/GJ,GJ/GJ,GJ/GJ,GJ/GJ,GJ/GJ,GJ/GJ,GJ/GJ,GJ/GJ,GJ/GJ,GJ/GJ,t/GJ,t/GJ,t/GJ
+Biomass,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Coal,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.208333
+Fusion_Stellarator,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Fusion_Tokamak,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gas,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9.11E-02
+Geothermal,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+H2_CCGT,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hydro,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lignite,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2849
+Oil,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.302803
+SolarPV,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Uranium,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Waste,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+WindOff,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+WindOn,DE,2020,fixed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

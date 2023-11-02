@@ -1,0 +1,9 @@
+ProcessName,RegionName,Time,Level,electricity,oil,gas,geo,heat,hydrogen,wind,lignite,biomass,water,uranium,solar,coal,hydro,waste,methanol,ammonia,CO2
+Unit,-,Year,-,GJ/t,GJ/t,GJ/t,GJ/t,GJ/t,GJ/t,GJ/t,GJ/t,GJ/t,GJ/t,GJ/t,GJ/t,GJ/t,GJ/t,GJ/t,t/t,t/t,t/t
+procAmm_NG,DE,2020,fixed,0.3,0,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+procAmm_Coal,DE,2020,fixed,3.7,0,0,0,0,0,0,0,0,0,0,0,33.7,0,0,0,0,0
+procAmm_NG_CCS,DE,2020,fixed,1,0,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+procAmm_Coal_CCS,DE,2020,fixed,4.9,0,0,0,0,0,0,0,0,0,0,0,33.7,0,0,0,0,0
+procAmm_Elec,DE,2020,fixed,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+procAmm_Bio,DE,2020,fixed,1.4,0,0,0,0,0,0,0,35.1,0,0,0,0,0,0,0,0,0
+procChemFertiliz,DE,2020,fixed,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

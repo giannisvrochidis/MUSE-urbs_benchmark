@@ -1,0 +1,10 @@
+ProcessName,RegionName,Time,Level,electricity,oil,gas,geo,heat,hydrogen,wind,lignite,biomass,water,uranium,solar,coal,hydro,waste,diesel,petrol,LPG,CO2,ft_road_tkm,pt_bus_pkm,pt_car_pkm
+Unit,-,Year,-,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,GJ/pkm,t/pkm,tkm/pkm,pkm/pkm,pkm/pkm
+pt_car_bev,DE,2020,fixed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+pt_car_diesel,DE,2020,fixed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.02E-04,0,0,1
+pt_car_hybrid,DE,2020,fixed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4.59E-05,0,0,1
+pt_car_hydrogen,DE,2020,fixed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+pt_car_lpg,DE,2020,fixed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6.98E-05,0,0,1
+pt_car_natural_gas,DE,2020,fixed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6.58E-05,0,0,1
+pt_car_petrol,DE,2020,fixed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.03E-04,0,0,1
+pt_car_plug_in,DE,2020,fixed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.08E-05,0,0,1

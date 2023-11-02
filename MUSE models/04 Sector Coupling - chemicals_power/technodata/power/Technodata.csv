@@ -1,0 +1,17 @@
+ProcessName,RegionName,Time,Level,cap_par,cap_exp,fix_par,fix_exp,var_par,var_exp,MaxCapacityAddition,MaxCapacityGrowth,TotalCapacityLimit,TechnicalLife,UtilizationFactor,ScalingSize,efficiency,InterestRate,Type,Fuel,EndUse,Agent2,Agent1
+Unit,-,Year,-,EUR/GJ-yr,-,EUR/GJ-yr2,-,EUR/GJ,-,GJ-yr,%,GJ-yr,Years,-,GJ,%,-,-,-,-,Retrofit,New
+Biomass,DE,2020,fixed,64.481862,1,2.368721461,1,0,1,1.00E+20,100,2.52E+08,25,1,0.00000189,1,0.07,energy,biomass,electricity,1,0
+Coal,DE,2020,fixed,52.63825469,1,1.579147641,1,0,1,1.00E+20,100,1.00E+20,45,1,0.00000189,1,0.07,energy,coal,electricity,1,0
+Fusion_Stellarator,DE,2020,fixed,88.08276256,1,0.880834602,1,0,1,0,100,0,40,1,0.00000189,1,0.07,energy,heat,electricity,1,0
+Fusion_Tokamak,DE,2020,fixed,88.08276256,1,0.880834602,1,0,1,0,100,0,40,1,0.00000189,1,0.07,energy,heat,electricity,1,0
+Gas,DE,2020,fixed,19.73934551,1,0.592180365,1,0,1,1.00E+20,100,1.00E+20,35,1,0.00000189,1,0.07,energy,gas,electricity,1,0
+Geothermal,DE,2020,fixed,75.00951294,1,1.447552004,1,0,1,5.37E+03,100,5.88E+04,30,1,0.00000189,1,0.07,energy,geothermal,electricity,1,0
+H2_CCGT,DE,2020,fixed,31.70979198,1,0.7927448,1,0,1,1.00E+20,100,1.00E+20,30,1,0.00000189,1,0.07,energy,hydrogen,electricity,1,0
+Hydro,DE,2020,fixed,86.19514206,1,1.776541096,1,0,1,1.00E+20,100,2.48E+06,50,0.33,0.00000189,1,0.07,energy,hydro,electricity,1,0
+Lignite,DE,2020,fixed,52.63825469,1,1.579147641,1,0,1,1.00E+20,100,1.00E+20,45,1,0.00000189,1,0.07,energy,lignite,electricity,1,0
+Oil,DE,2020,fixed,47.97691527,1,1.055492136,1,0,1,1.00E+20,100,1.00E+20,45,1,0.00000189,1,0.07,energy,oil,electricity,1,0
+SolarPV,DE,2020,fixed,13.47666159,1,0.526382547,1,0,1,1.00E+20,100,1.30E+08,25,0.145,0.00000189,1,0.07,energy,solar,electricity,1,0
+Uranium,DE,2020,fixed,115.3285134,1,4.211060375,1,0,1,1.00E+20,100,2.83E+06,60,1,0.00000189,1,0.07,energy,uranium,electricity,1,0
+Waste,DE,2020,fixed,57.85451547,1,2.237125824,1,0,1,1.00E+20,100,5.67E+05,30,1,0.00000189,1,0.07,energy,waste,electricity,1,0
+WindOff,DE,2020,fixed,40.7470827,1,1.463119186,1,0,1,1.00E+20,100,2.73E+07,25,0.2457,0.00000189,1,0.07,energy,solar,electricity,1,0
+WindOn,DE,2020,fixed,29.74378488,1,0.347411683,1,0,1,1.00E+20,100,9.84E+07,25,0.3845,0.00000189,1,0.07,energy,solar,electricity,1,0
